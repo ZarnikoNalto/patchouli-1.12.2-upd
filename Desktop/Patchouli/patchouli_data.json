@@ -1,0 +1,40 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": true,
+  "bookData": {
+    "patchouli:testbook2": {
+      "viewedEntries": [
+        "patchouli:intro/smelttest",
+        "patchouli:intro/preface"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:intro/smelttest",
+        "patchouli:intro/preface"
+      ],
+      "completedManualQuests": []
+    },
+    "patchouli:testbook1": {
+      "viewedEntries": [
+        "patchouli:intro/preface",
+        "patchouli:sortnum/0/entry1",
+        "patchouli:test/twilitportal",
+        "patchouli:test/netherportal"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:test/twilitportal",
+        "patchouli:test/netherportal",
+        "patchouli:sortnum/0/entry1",
+        "patchouli:intro/preface"
+      ],
+      "completedManualQuests": []
+    },
+    "patchouli:test_completion": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "history": [],
+      "completedManualQuests": []
+    }
+  }
+}

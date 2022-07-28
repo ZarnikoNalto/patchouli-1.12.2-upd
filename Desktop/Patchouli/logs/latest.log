@@ -1,0 +1,191 @@
+[17:49:10] [main/INFO] [GradleStart]: Extra: []
+[17:49:10] [main/INFO] [GradleStart]: Found and added coremod: com.bloodnbonesgaming.bnbgamingcore.core.BNBGamingCorePlugin
+[17:49:10] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/maksm/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[17:49:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:49:10] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:49:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:49:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:49:10] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2836 for Minecraft 1.12.2 loading
+[17:49:10] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_342, running on Windows 10:amd64:10.0, installed at C:\Program Files\BellSoft\LibericaJDK-8\jre
+[17:49:10] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[17:49:10] [main/ERROR] [FML]: Full: C:\Users\maksm\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[17:49:10] [main/ERROR] [FML]: Trimmed: c:/users/maksm/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[17:49:11] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[17:49:11] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[17:49:12] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[17:49:12] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[17:49:12] [main/INFO] [FML]: Found a command line coremod : com.bloodnbonesgaming.bnbgamingcore.core.BNBGamingCorePlugin
+[17:49:12] [main/WARN] [FML]: The coremod com.bloodnbonesgaming.bnbgamingcore.core.BNBGamingCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[17:49:12] [main/INFO] [FML]: Ignoring missing certificate for coremod BNBGamingCore (com.bloodnbonesgaming.bnbgamingcore.core.BNBGamingCorePlugin), as this is probably a dev workspace
+[17:49:12] [main/INFO] [FML]: Searching D:\Projects\IdeaProjects\Patchouli\.\mods for mods
+[17:49:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:49:12] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[17:49:12] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[17:49:12] [main/INFO] [GradleStart]: Injecting location in coremod com.bloodnbonesgaming.bnbgamingcore.core.BNBGamingCorePlugin
+[17:49:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:49:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:49:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[17:49:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:49:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:49:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:49:15] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[17:49:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:49:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:49:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:49:15] [main/INFO] [BnBGamingCore]: Minecraft version is 1.12.2 and BNBGamingCore accepts versions 1.12, . It will be registered.
+[17:49:15] [main/INFO] [BnBGamingCore]: Minecraft version is 1.12.2 and BNBGamingCore accepts versions 1.12, . It will be registered.
+[17:49:16] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[17:49:16] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:49:16] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:49:16] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[17:49:17] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player656
+[17:49:21] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[17:49:21] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[17:49:22] [Client thread/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_342, BellSoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), BellSoft
+	Memory: 251480176 bytes (239 MB) / 559939584 bytes (534 MB) up to 4761059328 bytes (4540 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+BNBGamingCore (bnbgamingcore-274341-2991671.jar)
+  com.bloodnbonesgaming.bnbgamingcore.core.BNBGamingCoreClassTransformer
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.14802 Compatibility Profile Context 22.1.2 30.0.14023.3004' Renderer: 'Radeon RX 570 Series'
+[17:49:22] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2836 Initialized
+[17:49:22] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[17:49:23] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[17:49:23] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[17:49:23] [Client thread/INFO] [FML]: Searching D:\Projects\IdeaProjects\Patchouli\.\mods for mods
+[17:49:24] [Client thread/WARN] [FML]: Mod patchouli is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.0-24
+[17:49:25] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 157356400 nanos
+[17:49:25] [Client thread/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
+[17:49:26] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bnbgamingcore, patchouli] at CLIENT
+[17:49:26] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bnbgamingcore, patchouli] at SERVER
+[17:49:26] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Patchouli
+[17:49:26] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[17:49:26] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[17:49:26] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[17:49:27] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[17:49:27] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[17:49:27] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:163]: ___________________________
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:164]: BOOK DATA! BOOK DATA! BOOK DATA! BOOK DATA!
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:165]: Book name: item.patchouli:test_book_2.name
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:166]: Using blocky font? Answer: false
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:167]: Is pamphlet? Answer: false
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:168]: Is one_entry? Answer: false
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:163]: ___________________________
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:164]: BOOK DATA! BOOK DATA! BOOK DATA! BOOK DATA!
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:165]: Book name: item.patchouli:test_completion.name
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:166]: Using blocky font? Answer: false
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:167]: Is pamphlet? Answer: false
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:168]: Is one_entry? Answer: false
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:163]: ___________________________
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:164]: BOOK DATA! BOOK DATA! BOOK DATA! BOOK DATA!
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:165]: Book name: patchouli.crafting.error
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:166]: Using blocky font? Answer: false
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:167]: Is pamphlet? Answer: false
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:168]: Is one_entry? Answer: false
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:163]: ___________________________
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:164]: BOOK DATA! BOOK DATA! BOOK DATA! BOOK DATA!
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:165]: Book name: patchouli.smelting.error
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:166]: Using blocky font? Answer: false
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:167]: Is pamphlet? Answer: false
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:168]: Is one_entry? Answer: false
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:163]: ___________________________
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:164]: BOOK DATA! BOOK DATA! BOOK DATA! BOOK DATA!
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:165]: Book name: item.patchouli:intro_book.name
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:166]: Using blocky font? Answer: false
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:167]: Is pamphlet? Answer: false
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:168]: Is one_entry? Answer: false
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:163]: ___________________________
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:164]: BOOK DATA! BOOK DATA! BOOK DATA! BOOK DATA!
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:165]: Book name: item.patchouli:test_book_1.name
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:166]: Using blocky font? Answer: true
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:167]: Is pamphlet? Answer: false
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:168]: Is one_entry? Answer: false
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:163]: ___________________________
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:164]: BOOK DATA! BOOK DATA! BOOK DATA! BOOK DATA!
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:165]: Book name: item.patchouli:test_book_1.name
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:166]: Using blocky font? Answer: true
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:167]: Is pamphlet? Answer: true
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:168]: Is one_entry? Answer: true
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:163]: ___________________________
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:164]: BOOK DATA! BOOK DATA! BOOK DATA! BOOK DATA!
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:165]: Book name: item.patchouli:test_book_2.name
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:166]: Using blocky font? Answer: false
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:167]: Is pamphlet? Answer: false
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.Book:build:168]: Is one_entry? Answer: true
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.BookRegistry:init:78]: _________________________
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.BookRegistry:init:79]: BOOKS DICTIONARY!!! BOOKS DICTIONARY!!! BOOKS DICTIONARY!!!
+[17:49:27] [Client thread/INFO] [STDOUT]: [vazkii.patchouli.common.book.BookRegistry:init:80]: {patchouli:testbook2=vazkii.patchouli.common.book.Book@27551c3a, patchouli:test_completion=vazkii.patchouli.common.book.Book@328c6f65, patchouli:i_am_crafting_error=vazkii.patchouli.common.book.Book@4893a9f0, patchouli:i_am_smelting_error=vazkii.patchouli.common.book.Book@70de1e65, patchouli:intro=vazkii.patchouli.common.book.Book@7f657888, patchouli:testbook1=vazkii.patchouli.common.book.Book@2ec3d746}
+[17:49:27] [Client thread/INFO] [FML]: Applying holder lookups
+[17:49:27] [Client thread/INFO] [FML]: Holder lookups applied
+[17:49:27] [Client thread/INFO] [FML]: Applying holder lookups
+[17:49:27] [Client thread/INFO] [FML]: Holder lookups applied
+[17:49:27] [Client thread/INFO] [FML]: Applying holder lookups
+[17:49:27] [Client thread/INFO] [FML]: Holder lookups applied
+[17:49:27] [Client thread/INFO] [FML]: Applying holder lookups
+[17:49:27] [Client thread/INFO] [FML]: Holder lookups applied
+[17:49:27] [Client thread/INFO] [FML]: Injecting itemstacks
+[17:49:27] [Client thread/INFO] [FML]: Itemstack injection complete
+[17:49:29] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2859
+[17:49:34] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[17:49:34] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[17:49:34] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:49:34] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[17:49:34] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[17:49:44] [Client thread/INFO] [FML]: Max texture size: 16384
+[17:49:44] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[17:49:46] [Client thread/INFO] [FML]: Applying holder lookups
+[17:49:46] [Client thread/INFO] [FML]: Holder lookups applied
+[17:49:46] [Client thread/INFO] [FML]: Injecting itemstacks
+[17:49:46] [Client thread/INFO] [FML]: Itemstack injection complete
+[17:49:47] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
+[17:49:47] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[17:49:47] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[17:49:47] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[17:49:52] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[17:49:52] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[17:49:52] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[17:49:52] [Server thread/INFO] [FML]: Applying holder lookups
+[17:49:52] [Server thread/INFO] [FML]: Holder lookups applied
+[17:49:53] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@563e59fd)
+[17:49:53] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 514 advancements
+[17:49:53] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@563e59fd)
+[17:49:53] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@563e59fd)
+[17:49:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[17:49:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 27%
+[17:49:55] [Server thread/INFO] [FML]: Unloading dimension -1
+[17:49:55] [Server thread/INFO] [FML]: Unloading dimension 1
+[17:49:55] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[17:49:57] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[17:49:57] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[17:49:57] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2836,bnbgamingcore@0.12.0,patchouli@1.0-24,mcp@9.42
+[17:49:57] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[17:49:57] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[17:49:57] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player656[local:E:7021f845] logged in with entity id 814 at (223.94917934285996, 71.41303838646624, 220.38680962641138)
+[17:49:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player656 joined the game
+[17:49:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player656 has made the advancement [Stone Age]
+[17:49:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player656 has made the advancement [Acquire Hardware]
+[17:49:58] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[17:49:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[17:49:59] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player656 has made the advancement [Stone Age]
+[17:49:59] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player656 has made the advancement [Acquire Hardware]
+[17:49:59] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 46 advancements
+[17:50:30] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[17:50:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[17:50:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[17:50:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[17:50:30] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player656 lost connection: Disconnected
+[17:50:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player656 left the game
+[17:50:30] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[17:50:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[17:50:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[17:50:31] [Server thread/INFO] [FML]: Unloading dimension 0
+[17:50:31] [Server thread/INFO] [FML]: Applying holder lookups
+[17:50:31] [Server thread/INFO] [FML]: Holder lookups applied

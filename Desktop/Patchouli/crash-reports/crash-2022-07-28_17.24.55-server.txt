@@ -1,0 +1,80 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 7/28/22 5:24 PM
+Description: Exception ticking world
+
+java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.remove(HashMap.java:1483)
+	at net.minecraft.world.gen.ChunkProviderServer.tick(ChunkProviderServer.java:280)
+	at net.minecraft.world.WorldServer.tick(WorldServer.java:216)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:831)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at java.util.HashMap$HashIterator.remove(HashMap.java:1483)
+	at net.minecraft.world.gen.ChunkProviderServer.tick(ChunkProviderServer.java:280)
+	at net.minecraft.world.WorldServer.tick(WorldServer.java:216)
+
+-- Affected level --
+Details:
+	Level name: New World
+	All players: 0 total; []
+	Chunk stats: ServerChunkCache: 476 Drop: 205
+	Level seed: 5104893781898221030
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (216,64,188), Chunk: (at 8,4,12 in 13,11; contains blocks 208,0,176 to 223,255,191), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 16720 game time, 2218 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 12095 (now: false), thunder time: 13022 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:831)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592)
+	at java.lang.Thread.run(Thread.java:750)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_342, BellSoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), BellSoft
+	Memory: 567171840 bytes (540 MB) / 1054867456 bytes (1006 MB) up to 4761059328 bytes (4540 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP 9.42 Powered by Forge 14.23.5.2836 6 mods loaded, 6 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID            | Version      | Source                           | Signature |
+	|:------ |:------------- |:------------ |:-------------------------------- |:--------- |
+	| LCHIJA | minecraft     | 1.12.2       | minecraft.jar                    | None      |
+	| LCHIJA | mcp           | 9.42         | minecraft.jar                    | None      |
+	| LCHIJA | FML           | 8.0.99.99    | forgeSrc-1.12.2-14.23.5.2836.jar | None      |
+	| LCHIJA | forge         | 14.23.5.2836 | forgeSrc-1.12.2-14.23.5.2836.jar | None      |
+	| LCHIJA | bnbgamingcore | 0.12.0       | minecraft.jar                    | None      |
+	| LCHIJA | patchouli     | 1.0-24       | main                             | None      |
+
+	Loaded coremods (and transformers): 
+BNBGamingCore (bnbgamingcore-274341-2991671.jar)
+  com.bloodnbonesgaming.bnbgamingcore.core.BNBGamingCoreClassTransformer
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Patchouli open book context: 
+		Open book: patchouli:testbook1
+		Current page spread: 0
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 8; []
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
